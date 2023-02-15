@@ -1,0 +1,264 @@
+
+/* 画像*/
+.m_header {
+    width: 100%;
+    height: 770px;
+    border-bottom: 3px solid rgb(192, 187, 187);
+}
+
+.m_top-image, .m_top-image img {
+    
+    width: 100%;
+    height: auto;
+}
+
+
+/*ヘッダーリスト*/
+
+.m_header-main {
+    width: 100%;
+    height: 88px;
+}
+
+.m_header-logo {
+float: left;
+color: rgb(94, 219, 241);
+font-size: 33px;
+font-family: 'Franklin Gothic Medium';
+padding: 12px;
+}
+
+.m_header-list li {
+    list-style: none;
+    float: right;
+    padding: 12px 12px;
+}
+
+/*メインーお知らせと日付＿大箱＞中箱＞小箱*/
+
+.m_Main {
+
+    width: 100%;
+    height: 1800px;
+    margin-top: 20px;
+}
+
+.Main_top {
+
+    display: flex;
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+    margin-right: 17.5px;
+    margin-left: 17.5px;
+
+}
+
+
+.Notification {
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80%;
+    height: 220px;
+    
+}
+
+.news {
+    
+    float: left;
+    padding: 0px 70px 70px 40px;
+    height: 220px;
+}
+
+.link {
+
+    font-size: 14px;
+    padding: 0px 7px 0px 0px;
+    line-height: opx;
+
+}
+
+.date {
+
+    width: 20%;
+    font-size: 72px;
+    color: #0f96b8;
+    height: 220px;
+
+}
+
+
+/*商品情報ソフトドリンク／お酒／健康食品・スキンケア／花・野菜*/
+
+.Main-productinfo {
+    
+    display:inline-block;
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+    margin-right: 17.5px;
+    margin-left: 17.5px;
+}
+
+h2 a {
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f96b8;
+    line-height: 46px;
+}
+
+span {
+
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 0px 0px 0px 32px;
+}
+
+
+
+/*サントリーのおすすめ商品 6種 */
+
+.Recommendation {
+
+    margin-top: 55px;
+    margin-bottom: 70px;
+    width: 100%;
+    height: 750px;
+}
+
+.featured_title {
+
+    width: 90%;
+    height: 40px;
+    color: #0F96B8;
+    text-align: center;
+
+}
+
+.itembox {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.featured_items {
+    
+   float: left;
+   width: 10%;
+   height: 350px;
+   margin: 10px 47px;
+   text-align: center;
+
+}
+
+.featured_img img {
+
+    height: 40%;
+    width: 40%;
+
+}
+
+.two-images {
+
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+
+}
+
+.iemon-image, .sui-image, img {
+
+    width: 480px;
+    height: auto;
+    
+}
+
+
+.campaign {
+
+    width: 100%;
+    height: 300px;
+    display:block;
+    background-color: #f1f5f6;
+
+}
+
+.campaign-title, .newsrelease-title, .latestinfo-title, .CMandVideo-title, h2 {
+    
+    display:block;
+    padding: 0px 0px 0px 50px;
+    color: #0F9688;
+    font-size: 24px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+
+
+/*Footer*/
+
+.Footer {
+    width: 100%;
+    height: 460px;
+    padding: 20px 0 20px 0;
+    background-color: #f1f5f6;
+}
+
+.Footermenu1 .Footermenu2 .Footermenu3 .Footermenu4 {
+
+    width: 80%;
+    height: 25%;
+    display: flex;
+  
+}
+
+.Footermenu1 ul{
+
+    list-style: none;
+    float: left;
+    padding: 30px 50px;
+    line-height: 3;
+    font-weight: bold;
+
+}
+
+.Footermenu2 ul {
+    
+     list-style: none;
+    float: left;
+    padding: 30px 50px;
+    line-height: 3;
+    font-weight: bold;
+}
+    
+.Footermenu3 ul {
+
+    list-style: none;
+    float: left;
+    padding: 30px 50px;
+    line-height: 3;
+    font-weight: bold;
+
+}
+
+.Footermenu4 ul {
+
+    list-style: none;
+    float: left;
+    padding: 30px 50px;
+    line-height: 3;
+    font-weight: bold;
+}
+
+
+
